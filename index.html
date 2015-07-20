@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewDevATL</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-blue.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel='stylesheet' href='main.css' type='text/css'>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">NewDevATL</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+          <label for="event-search" class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input type="text" id="event-search" class="mdl-textfield__input">
+            <label for="event-search" class="mdl-textfield__label">Enter your query...</label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+
+      <section class="events mdl-grid">
+        <h1 class="mdl-cell mdl-cell--12-col"> Upcoming Events</h1>
+        <h2 class="mdl-cell mdl-cell--12-col"><small>A resource guide for beginner-friendly tech events around Atlanta</small></h2>
+        <div class="event mdl-cell mdl-cell--12-col mdl-shadow--3dp">
+          <div class="mdl-card__title">
+            <h2 class="event-title mdl-card__title-text"> Free Code Camp Atlanta meetup </h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <p class="date">Saturday July 18, 2015 at 10 AM</p>
+            <p class="address">
+              <span class="name">Starbucks at The Prado Shopping Center</span>
+              <span class="street-address"> 5610 Roswell Rd</span>
+              <span class="region">Sandy Springs, GA</span>
+            </p>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a href="https://www.facebook.com/groups/free.code.camp.atlanta/815262645189979/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">more info</a>
+          </div>
+        </div>
+
+        <div class="event mdl-cell mdl-cell--12-col mdl-shadow--3dp">
+          <div class="mdl-card__title">
+            <h2 class="event-title mdl-card__title-text">ConnectJS Conference (must purchase tickets for event)</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <p class="date">October 16 - 17, 2015</p>
+            <p class="address">
+              <span class="name">Cobb Galleria Center</span>
+              <span class="street-address">2 Galleria Pkwy SE</span>
+              <span class="region">Atlanta, GA 30339</span>
+            </p>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a href="http://www.connect-js.com" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">more info</a>
+          </div>
+        </div>
+
+        <div class="event mdl-cell mdl-cell--12-col mdl-shadow--3dp">
+          <div class="mdl-card__title">
+            <h2 class="event-title mdl-card__title-text"> HackATL </h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <p class="date">October 16-18</p>
+            <p class="address">
+              <span class="name">Emory University's Goizueta Business School</span>
+              <span class="street-address">1300 Clifton Rd</span>
+              <span class="region">Atlanta, GA 30322</span>
+            </p>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a href="http://www.hackatl.org" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">more info</a>
+          </div>
+        </div>
+        <p class="add-event mdl-cell mdl-cell--12-col">
+          Create an issue for <a href="https://github.com/LeahW/NewDevATL">NewDevATL</a> to list your event
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
