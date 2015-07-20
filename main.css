@@ -2,10 +2,10 @@ html, body {
   background-color: #fafafa;
 }
 
-li {
-  color: green
-}
-
 .address span{
   display: block;
+}
+
+.mdl-card__title {
+  background-color: #c5cae9;
 }
